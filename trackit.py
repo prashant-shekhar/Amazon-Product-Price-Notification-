@@ -27,7 +27,7 @@ def check_price():
 
 
 
-    if(a > 95000):
+    if(a < 95000):
         send_email()
 
     print(converted_price)
